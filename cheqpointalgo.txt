@@ -1,0 +1,24 @@
+Var
+    s: string;
+    nombredemot, voy,  i: integer;
+    
+
+Begin
+
+   nombredemot:=0
+    voy := 0;
+ Read(s)
+    
+
+
+    For i := 1 to Length(s) Do
+        if s[i]=
+            ['a', 'e', 'i', 'u', 'o', 'y'] :
+                voy := voy + 1;
+                if s[i]=[''] THEN
+                nombredemot:=nombredemot+1
+           
+    
+    EndFor
+    write(nombredemot)
+    write(voy)
